@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: transparent;
+    z-index: 999;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), transparent);
+    border-bottom: 1px solid #bdbfc0;
+}
+.header img{
+    max-height: 80px;
+    object-fit: contain;
+}
+.header nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header nav li{
+    margin-right: 20px;
+    padding: 0 31px;
+}
+.header nav li:last-child{
+    margin-right: 60px;
+}
+.header nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 19px;
+}
+.header nav li:hover a{
+    background-color: rgb(37, 52, 7);
+    color: rgb(169, 211, 211);
+}
+.banner{
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.banner img{
+    width: 100%;
+
+}
+
+/* chọn phần tử cha */
+.main {
+    display: flex; /* sử dụng flexbox */
+    flex-direction: row; /* các phần tử con sẽ xếp theo hàng ngang */
+  }
+  
+  /* chọn phần tử content */
+  .content {
+    width: 70%; /* chiếm 70% phần tử cha */
+    padding: 0 20px; /* thêm khoảng cách lề bên trong content */
+  }
+  
+  /* chọn phần tử sidebar */
+  .sidebar {
+    width: 30%; /* chiếm 30% phần tử cha */
+    padding: 0 20px; /* thêm khoảng cách lề bên trong sidebar */
+  }
+  
+  /* chọn phần tử subbanner */
+  .subbanner {
+    width: 100%;
+    margin-bottom: 20px; /* thêm khoảng cách giữa subbanner và post */
+    
+  }
+  .row{
+    background-color: azure;
+    padding: 134px;
+  }
+  .subbanner img{
+    width: 100%;
+  }
+  /* chọn phần tử post */
+  .post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* thêm khoảng cách giữa các post */
+    background-color: bisque;
+  }
+  .post img{
+    width: 30%;
+  }
+  .news{
+    padding: 20px;
+  }
+  /* chọn phần tử section */
+  .sidebar {
+    /* border: 2px solid #ccc; add border to the entire sidebar */
+    padding: 20px; /* add padding to the entire sidebar */
+  }
+  
+  .section {
+    margin-bottom: 20px; /* add spacing between each section */
+    border: 2px solid #ddd; /* add border to each section */
+    padding: 20px; /* add padding to each section */
+    background-color: rgb(156, 230, 206);
+  }
+  .section h2{
+    padding: 10px;
+    background-color: rgb(96, 96, 199);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    margin: 0; /* remove default margin from unordered list */
+    padding: 0; /* remove default padding from unordered list */
+    /* list-style: none; remove bullet points from unordered list */
+  }
+  
+  .section li {
+    margin-bottom: 5px; /* add spacing between each list item */
+  }
+  
+  .hang {
+    display: flex;
+    margin-bottom: 10px; /* add spacing between each image and paragraph */
+  }
+  
+  .hang img {
+    width: 100px; /* adjust image size */
+    margin-right: 10px; /* add spacing between image and paragraph */
+    box-shadow: 4px 4px 8px #888888;
+  }
+  
+  .hang p {
+    margin: 0; /* remove default margin from paragraph */
+  }
+  
+  /* chọn phần tử ul */
+
+
+.sub-footer{
+    width: 100%;
+    padding: 60px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cot h4{
+    color: red;
+}
+.cot ul li{
+    list-style-type: decimal;
+}
+.cot li a{
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 103, 103);
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+  }
+  
+  .social-icons img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .company-info {
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
